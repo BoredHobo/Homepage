@@ -1,11 +1,11 @@
 body {
-    background: black url("../images/background.png") no-repeat center center fixed;
+    background: black url("/images/background.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     color: white;
-    font-family: "roboto", serif;
+    font-family: "Atkinson Hyperlegible Mono", serif;
     display: flex;
     justify-content: center;
     margin-top: 175px;
@@ -13,18 +13,20 @@ body {
 
 .content{
     display: flex;
-    background-color: red;
     height: 500px;
-    width: 75%;
+    width: 750px;
     justify-content: space-evenly;
     align-items: center;
+    border: 3px solid;
 }
 
 .watching{
     display: flex;
-    background-color: blue;
+    flex-direction: column;
+    border:1px solid;
     height: 450px;
     width: 350px;
+    
 }
 
 .right-side{
@@ -43,19 +45,31 @@ body {
 
 .scrolling {
     display: flex;
-    background-color: hotpink;
+    border:1px solid;
     width: 170px;
+    flex-direction: column;
 }
 
 .torrenting{
     display: flex;
-    background-color: green;
+    border:1px solid;
     width: 170px;
+    flex-direction: column;
 }
 
 .programming{
     display: flex;
-    background-color: darkviolet;
+    border:1px solid;
     height: 220px;
     width: 350px;
+    flex-direction: column;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+ul {
+    margin-top: -1px;
+    list-style-type: none;
 }
