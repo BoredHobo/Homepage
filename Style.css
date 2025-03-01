@@ -1,7 +1,10 @@
 body {
+    /* To change background image (can also just set to a color) */
     background: url("../Homepage/images/background.png") black;
     background-size: cover;
+    /* To change the color of the text and border */
     color: white;
+    /* Can change font too */
     font-family: "Atkinson Hyperlegible Mono", serif;
     display: flex;
     justify-content: center;
@@ -77,5 +80,6 @@ a {
 }
 
 a:hover{
+    /* Can change color when hovering over a link */
     color:pink;
 }
