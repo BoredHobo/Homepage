@@ -1,0 +1,41 @@
+body {
+    background: black url("../images/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: "roboto", serif;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    background-color: red;
+    border: blue 30px
+    ;
+    height: 75%;
+    width: 75%;
+}
+
+.watching{
+    display: flex;
+    background-color: blue;
+
+}
+
+.scrolling {
+    display: flex;
+    background-color: hotpink;
+}
+
+.torrenting{
+    display: flex;
+    background-color: chartreuse;
+}
+
+.programming{
+    display: flex;
+    background-color: darkviolet;
+}
