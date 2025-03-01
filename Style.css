@@ -73,3 +73,12 @@ ul {
     margin-top: -1px;
     list-style-type: none;
 }
+
+a {
+    color: white;
+    text-decoration-style: dotted;
+}
+
+a:hover{
+    color:pink;
+}
